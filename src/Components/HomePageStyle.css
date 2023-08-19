@@ -1,0 +1,15 @@
+.home-page-container {
+  font-family: "Jura", sans-serif, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.home-page-container .home-page {
+  width: 100%;
+  background: #011a30;
+  /* // border: 2px solid green; */
+  color: #fff;
+}
+
+.Section-page {
+  height: 95vh;
+}

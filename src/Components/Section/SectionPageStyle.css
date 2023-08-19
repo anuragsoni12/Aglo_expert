@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+:root {
+  --tran: all 0.3s linear;
+}
+.section-page-container {
+  position: relative;
+  top: 20%;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+.section-page-container h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+  margin: 0px 0px 25px 0px;
+  color: #02203c;
+}
+
+.section-page-container .section-page-container-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-page-container .section-page-container-first .watch-btn-icon {
+  font-size: 30px;
+  margin: 0px 8px;
+  color: #02203c;
+}
+.section-page-container .section-page-container-first .watch-btn-text {
+  margin: 0px 5px 0px 0px;
+}
+.section-page-container .section-page-container-first .watch-btn {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 5px 0px;
+  border: 2px solid #02203c;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  transition: var(--tran);
+  overflow: hidden;
+}
+.watch-btn::before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #02203c;
+  width: 0%;
+  transform: translateX(-100%);
+  transition: var(--tran);
+}
+.watch-btn:hover:before {
+  transform: translateX(0);
+  width: 100%;
+  z-index: -1;
+}
+.watch-btn:hover .watch-btn-text {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.watch-btn:hover .watch-btn-icon {
+  color: #ffffff;
+}
