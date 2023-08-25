@@ -1,19 +1,18 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
 import "./SectionPageStyle.css";
-import { FaPlayCircle } from "react-icons/fa";
+import { TopComponent } from "./TopComponent";
+import { CardComponent } from "./CardComponent";
 
 const SectionPage = () => {
   return (
     <Box className="section-page-container">
-      <Box className="section-page-container-first">
-        <Typography variant="h3">What is Algo Expert?</Typography>
-        <button className="watch-btn">
-          <FaPlayCircle className="watch-btn-icon" />
-          <span className="watch-btn-text">Watch the video</span>
-        </button>
+      <Box>
+        <TopComponent />
       </Box>
-      <Box></Box>
+      <Box>
+        <CardComponent />
+      </Box>
     </Box>
   );
 };

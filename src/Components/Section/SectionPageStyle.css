@@ -7,7 +7,11 @@
   position: relative;
   top: 20%;
   /* border: 2px solid green; */
+  /* margin-bottom: 200px; */
+  /* height: 95vh; */
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -69,3 +73,83 @@
 .watch-btn:hover .watch-btn-icon {
   color: #ffffff;
 }
+
+/* ---------------------------------Card Component ----------------------------------- */
+.card-container {
+  margin-top: 2%;
+  /* border: 2px solid blue; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+.card-container .card-container-box {
+  width: 87%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+.card-container .card-container-box .first-box {
+  /* border: 2px solid red; */
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.card-container .card-container-box .second-box {
+  overflow: hidden;
+  width: 90%;
+  height: 96%;
+  /* outline: 2px solid green; */
+  /* width: 100%; */
+  text-align: center;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 21px;
+  box-shadow: 0;
+
+  transition: all 0.3s ease, transform 0.3s ease;
+  /* transform: scale(1); */
+}
+.card-container .card-container-box .second-box:hover {
+  padding: 18px;
+  /* border: 2px solid green; */
+
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.card-container .card-container-box .second-box .icons {
+  transform: scale(1);
+  overflow: hidden;
+  width: 50px;
+  padding: 2px;
+  transition: width 0.3s ease;
+}
+.card-container .card-container-box .second-box:hover .icons {
+  width: 56px;
+
+  /* transition: width 0.3s ease; */
+}
+.card-container .card-container-box .second-box .title {
+  font-size: 20px;
+  margin: 15px 0px;
+  font-weight: 400;
+}
+.card-container .card-container-box .second-box .detail {
+  color: #445d6e;
+  font-size: 14px;
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  /* overflow: hidden; */
+  line-height: 1.7;
+  max-height: 100px; /* Set a maximum height */
+  overflow: hidden;
+}
+.card-container .card-container-box .second-box:hover .detail {
+  overflow: hidden;
+  /* transform: scale(1.02); */
+}
+/* ---------------------------------Card Component ----------------------------------- */
