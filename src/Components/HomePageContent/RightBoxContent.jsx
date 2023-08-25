@@ -10,7 +10,7 @@ const Item = styled(Stack)`
   border-radius: 5px 5px 0px 0px;
   font-weight: 500;
   display: flex;
-flex-wrap -wrap
+flex-wrap :wrap;
   justify-content: center;
 `;
 const RightBoxContent = () => {
