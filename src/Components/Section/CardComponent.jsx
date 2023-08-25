@@ -29,7 +29,7 @@ export const CardComponent = () => {
               <h3 className="title">{item.title}</h3>
 
               <p className="detail">{item.detail}</p>
-              <a>Learn more.</a>
+              <p>Learn more.</p>
             </div>
           </div>
         ))}
