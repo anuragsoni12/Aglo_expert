@@ -3,7 +3,6 @@ import Navigation from "./Navigation";
 import { Box, styled } from "@mui/material";
 import LeftBoxContent from "./HomePageContent/LeftBoxContent";
 import RightBoxContent from "./HomePageContent/RightBoxContent";
-const BoxHeaderStyle = styled(Box)``;
 
 const ContentBox = styled(Box)`
   // border: 2px solid red;
