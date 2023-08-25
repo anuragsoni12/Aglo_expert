@@ -3,12 +3,7 @@ import Navigation from "./Navigation";
 import { Box, styled } from "@mui/material";
 import LeftBoxContent from "./HomePageContent/LeftBoxContent";
 import RightBoxContent from "./HomePageContent/RightBoxContent";
-const BoxHeaderStyle = styled(Box)`
-  //   background: red;
-  //   color: white;
-  //   width: 100%;
-  // border: 2px solid white;
-`;
+const BoxHeaderStyle = styled(Box)``;
 
 const ContentBox = styled(Box)`
   // border: 2px solid red;
@@ -26,7 +21,7 @@ const MainContentBox = styled(Box)`
 
 const Header = () => {
   return (
-    <BoxHeaderStyle>
+    <Box>
       <Navigation />
       <ContentBox>
         <MainContentBox style={{ justifyContent: "flex-end" }}>
@@ -36,7 +31,7 @@ const Header = () => {
           <RightBoxContent />
         </MainContentBox>
       </ContentBox>
-    </BoxHeaderStyle>
+    </Box>
   );
 };
 
