@@ -10,6 +10,7 @@ import Image8 from "../../Images/Img8.png";
 import Image9 from "../../Images/Img9.png";
 import { CardData } from "../../Data/CardData";
 import "./SectionPageStyle.css";
+import { Link } from "@mui/material";
 export const CardComponent = () => {
   return (
     <div className="card-container">
@@ -29,7 +30,8 @@ export const CardComponent = () => {
               <h3 className="title">{item.title}</h3>
 
               <p className="detail">{item.detail}</p>
-              <p>Learn more.</p>
+              <Link className="link-style">Learn more.</Link>
+              {/* <p>Learn more.</p> */}
             </div>
           </div>
         ))}

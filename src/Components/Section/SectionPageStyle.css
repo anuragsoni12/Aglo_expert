@@ -6,9 +6,8 @@
 .section-page-container {
   position: relative;
   top: 20%;
-  /* border: 2px solid green; */
-  /* margin-bottom: 200px; */
   /* height: 95vh; */
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,6 +38,7 @@
   width: 60%;
   display: flex;
   justify-content: center;
+  background-color: #ffff;
   align-items: center;
   font-size: 18px;
   padding: 5px 0px;
@@ -85,6 +85,7 @@
 .card-container .card-container-box {
   width: 87%;
   /* border: 2px solid red; */
+  margin-bottom: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -94,16 +95,19 @@
   /* border: 2px solid red; */
   width: 400px;
   display: flex;
+  /* margin: 20px; */
   justify-content: center;
   align-items: center;
+  /* overflow: hidden; */
   /* text-align: center; */
 }
 .card-container .card-container-box .second-box {
   overflow: hidden;
   width: 90%;
-  height: 96%;
+  /* height: 96%; */
   /* outline: 2px solid green; */
   /* width: 100%; */
+  /* margin: 20px; */
   text-align: center;
   padding: 20px;
   border-radius: 4px;
@@ -119,8 +123,8 @@
 
   margin: 20px;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .card-container .card-container-box .second-box .icons {
   transform: scale(1);
@@ -152,4 +156,5 @@
   overflow: hidden;
   /* transform: scale(1.02); */
 }
+
 /* ---------------------------------Card Component ----------------------------------- */

@@ -5,7 +5,7 @@ import LeftBoxContent from "./HomePageContent/LeftBoxContent";
 import RightBoxContent from "./HomePageContent/RightBoxContent";
 
 const ContentBox = styled(Box)`
-  // border: 2px solid red;
+  
   width: 100%;
   height: 450px;
   display: flex;
