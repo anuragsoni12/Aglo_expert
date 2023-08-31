@@ -89,7 +89,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .card-container .card-container-box .first-box {
   /* border: 2px solid red; */
@@ -204,6 +204,7 @@
 }
 .table-container {
   /* border: 2px solid red; */
+  margin-top: 4%;
 
   align-items: center;
   display: flex;
